@@ -1,0 +1,18 @@
+{
+  "name": "email-champ-nodejs",
+  "version": "1.0.0",
+  "description": "news letter site with subscribtion",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahmoud Abo-Hgr",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
+    "request": "^2.88.2"
+  }
+}
