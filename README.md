@@ -5,5 +5,20 @@
 by submiting an email it will be stored in your list at Mailchimp so you can use these emails later to inform it with your news, offers or sales. 
 **Some Screenshots to visualize News-letter app:**
 1. Home page
-![Home page with email, first name , last name inputs ](https://www.mediafire.com/view/xy0lq5122hqqt1z/1.PNG/file)
-2. 
+![Home page with email, first name , last name inputs ](images/1.PNG)
+After submitting an email a verfication is required to continue
+2. Verfication request page 
+![ Verfication request page](images/2.PNG)
+click on the link that was sent to the submitted email
+3. Email verfication
+ ![Email verfication](images/3.PNG)
+
+after clicking on the verification link you will be redirected to a congratulations page.
+
+4. Congratulations page 
+![congratulations page](images/4.PNG)
+
+all the submitted emails will be added to your audience list on mailchimp dashboard
+
+5. MailChimp dashboard 
+![MailChimp dashboard](images/5.PNG)
