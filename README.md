@@ -24,10 +24,10 @@ all the submitted emails will be added to your audience list on mailchimp dashbo
 ![MailChimp dashboard](images/5.PNG)
 
 # Contact
-* Email: ma5027300@gmail.com.
+* Email: mahmoud.abohgrr@gmail.com.
 * LinkedIn: http://linkedin.com/in/mahmoudabohagr5027300
 * Phone: +02-01102488789.
 
 
 #### It's my pleasure to hear your feedback ☀️😊.
-<p align="right">(<a href="#blog-app-api">back to top</a>)</p>
+<p align="right">(<a href="#News-Letter">back to top</a>)</p>
