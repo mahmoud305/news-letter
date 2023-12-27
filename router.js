@@ -9,8 +9,8 @@ router.get("/", function (req, res) {
 });
 var fName, lName, email;
 router.get("/verfied", function (req, res) {
-    const APIKEY = "6b6110373b00dd1639a40521c9f27137-us21";
-    const APIURL = "https://us21.api.mailchimp.com/3.0/lists/f5483133a7";
+    const APIKEY = process.env.APIKEY;
+    const APIURL = "https://us21.api.mailchimp.com/3.0/lists/"+process.env.API_LIST_ID;
     const data = {
         members: [
             {
@@ -20,13 +20,14 @@ router.get("/verfied", function (req, res) {
             }
         ]
     }
+    
     axios({
         method: 'post',
         url: APIURL,
         data: data,
         auth: {// passing the api key in a basic auth
             username: "mayo",
-            password: "6b6110373b00dd1639a40521c9f27137-us21"
+            password: APIKEY
         }
     }).then(function (response) {
         if (response.data.error_count === 0)
@@ -81,7 +82,7 @@ router.post("/", (req, res) => {
         <body class="d-flex h-100 text-center text-bg-dark">
             <div class="cover-container bgNew d-flex w-100 h-100 p-3 mx-auto ">
                 <main class="px-3 d-flex justify-content-center align-items-center">
-                    <div>
+                    <div class="text-center">
                         <h1>We're glad you're here,</h1>
                         <p class="lead">, ${fName}  ${lName}.</p>
                         <p class="lead">
