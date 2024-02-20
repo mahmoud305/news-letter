@@ -1,5 +1,6 @@
 # News-Letter 
-### website for collecting subscribtions for a news letter.
+### website for collecting subscribtions for a news letter -deployed at render- ([News-Letter](https://abo-hgr-news-letter.onrender.com/)) .
+
 #### Backend developed using Node.JS, Express.JS, integrated with Mailchimp API to store the emails of the subscribed users and nodemailer used in verfying the submitted emails. 
 
 by submiting an email it will be stored in your list at Mailchimp so you can use these emails later to inform it with your news, offers or sales. 
@@ -30,4 +31,4 @@ all the submitted emails will be added to your audience list on mailchimp dashbo
 
 
 #### It's my pleasure to hear your feedback ☀️😊.
-<p align="right">(<a href="#News-Letter">back to top</a>)</p>
+<p align="right">(<a href="#News-Letter">back to top ↑ </a>)</p>
